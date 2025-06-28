@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/prod" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/FrmCProd_Lblid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/FrmCProd_Lblnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/FrmCProd_Lblpre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:textSize="16sp" />
+
+            <RatingBar
+                android:id="@+id/FrmCProd_Rbar"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:theme="@style/RatingBar.Yello" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

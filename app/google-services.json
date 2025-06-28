@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334094866095",
+    "project_id": "apkunmsm",
+    "storage_bucket": "apkunmsm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334094866095:android:fa089f2b1c6a8edb2ee65a",
+        "android_client_info": {
+          "package_name": "com.example.apkunmsm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlRCHXt-8Wc3YSt8PKARj6JihM26ToIAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
