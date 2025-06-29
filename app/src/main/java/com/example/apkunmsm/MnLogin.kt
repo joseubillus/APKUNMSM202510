@@ -31,7 +31,7 @@ class MnLogin : AppCompatActivity() {
         var usu=txtusu.text.toString()
         var pas=txtpas.text.toString()
         if(usu.equals("jose") && pas.equals("123"))
-            startActivity(Intent(this, MnMenu::class.java))
+            startActivity(Intent(this, MnLineChart::class.java))
         else
             Toast.makeText(this,"Error",Toast.LENGTH_LONG).show()
     }

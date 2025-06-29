@@ -38,7 +38,6 @@ class DFactura(var c:Context) {
             override fun onSuccess(statusCode: Int, headers: Array<out Header>?,responseBody: ByteArray?) {
                 ms.MCloseProgBar(true)
                 var resp:String = java.lang.String(responseBody).toString()
-                //ms.getMensaje("Lista:"+resp).show()
                 getJson(resp)
                 lst.adapter = adp
             }

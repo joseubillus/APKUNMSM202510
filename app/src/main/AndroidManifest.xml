@@ -16,6 +16,9 @@
         android:theme="@style/Theme.APKUNMSM"
         tools:targetApi="31">
         <activity
+            android:name=".MnDFruta"
+            android:exported="false" />
+        <activity
             android:name=".MnLineChart"
             android:exported="false" />
         <activity

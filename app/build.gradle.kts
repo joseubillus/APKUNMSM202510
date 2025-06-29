@@ -16,6 +16,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        /*ndk {
+            //noinspection ChromeOsAbiSupport
+            abiFilters += listOf("armeabi-v7a", "arm64-v8a")
+        }*/
     }
 
     buildTypes {
@@ -49,7 +54,11 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.android.async.http)
-    /*Implementar Grafico Lineal*/
+    //Implementar Grafico Lineal
     //implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
-
+    implementation(libs.mpandroidchart)
+    //Implementar Tensorflow-Lite
+    implementation("org.tensorflow:tensorflow-lite:2.13.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.3.1")
+    implementation("org.tensorflow:tensorflow-lite-gpu:2.13.0")
 }
